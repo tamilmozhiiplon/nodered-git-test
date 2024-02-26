@@ -5553,8 +5553,7 @@
         "y": 340,
         "wires": [
             [
-                "772b3245d23ed7cb",
-                "12f130d1ddbf8585"
+                "772b3245d23ed7cb"
             ]
         ]
     },
@@ -5573,22 +5572,6 @@
         "statusType": "auto",
         "x": 1110,
         "y": 340,
-        "wires": []
-    },
-    {
-        "id": "12f130d1ddbf8585",
-        "type": "influxdb batch",
-        "z": "4504d6f21ce3ab7a",
-        "influxdb": "067d270fb6080ac1",
-        "precision": "",
-        "retentionPolicy": "",
-        "name": "INV-Out",
-        "database": "",
-        "retentionPolicyV18Flux": "",
-        "org": "",
-        "bucket": "",
-        "x": 1100,
-        "y": 380,
         "wires": []
     },
     {
